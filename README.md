@@ -52,7 +52,7 @@ This project builds a **robust classification system** using both classical and 
 ├── 📊 plots/
 │   └── model_comparison.png
 ├── 📄 README.md
-
+```
 
 ---
 
