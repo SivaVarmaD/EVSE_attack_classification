@@ -33,31 +33,25 @@ This project builds a **robust classification system** using both classical and 
 
 ## 📊 Dataset Overview
 
-- 📁 **File**: `Cleaned_EVSE_Data.csv`
+- 📁 **File**: `EVSE-B-HPC-Kernel-Events-Combined.csv`
 - 🔢 **Samples**: ~100,000+
 - 🏷️ **Classes**: `Label = 0 (Benign), 1 (Attack)`
-- 📐 **Features**: 60+ including CPU counters, memory metrics, I/O loads, system calls, etc.
+- 📐 **Features**: 800+ including CPU counters, memory metrics, I/O loads, system calls, etc.
 - 🧹 **Cleaned**: Removed low-variance features and handled nulls with intelligent strategies
 
 ---
 
 ## 🔧 Project Architecture
 
+```bash
 📦 EVSE_Cybersecurity_Detector
 ├── 📁 data/
-│ └── Cleaned_EVSE_Data.csv
-├── 📁 models/
-│ ├── classical_models.py
-│ ├── deep_models.py
-│ └── evaluation_utils.py
+│   └── Cleaned_EVSE_Data.csv
 ├── 📁 notebooks/
-│ └── exploratory_analysis.ipynb
-├── 📁 outputs/
-│ └── confusion_matrices/
+│   └── Final_EVSE_attack_classification_nb.ipynb
 ├── 📊 plots/
-│ └── model_comparison.png
+│   └── model_comparison.png
 ├── 📄 README.md
-└── 🧠 main.py
 
 
 ---
@@ -151,22 +145,6 @@ Each model was:
 - [XGBoost Documentation](https://xgboost.readthedocs.io/)
 - [Keras Transfer Learning Guide](https://keras.io/guides/transfer_learning/)
 - EVSE Cybersecurity Research Papers and Datasets (Anonymized source)
-
----
-
-## 🤝 Contributors
-
-- 👨‍💻 Siva Varma – Data Scientist, ML Engineer, Author  
-- 📈 Dataset preprocessing, modeling, and visualization: [@SivaVarma](https://github.com/SivaVarma)
-
----
-
-## 📬 Contact
-
-Feel free to reach out via:
-- 📧 Email: `sivavarma.ai@gmail.com`
-- 🐦 Twitter: [@sivavarma_ai](https://twitter.com/sivavarma_ai)
-- 🌐 Portfolio: [sivavarma.dev](https://sivavarma.dev)
 
 ---
 
